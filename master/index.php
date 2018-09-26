@@ -2,7 +2,7 @@
 include "../config/koneksi.php";
 $host = $_SERVER["SERVER_NAME"];
 $base = "";
-$server = "https://".$host."/".$base;
+$server = "https://".$host;
 
 $s = mysql_query("select * from tbakun where username = '$_SESSION[nami]' and id = '$_SESSION[nomor]'");
 $d = mysql_fetch_array($s);
