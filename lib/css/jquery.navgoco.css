@@ -1,0 +1,69 @@
+.vmenu, .vmenu ul, .vmenu li {
+    list-style: none;
+}
+
+.vmenu ul {
+    padding: 0;
+    margin: 0 0 0 18px;
+}
+
+.vmenu {
+    padding: 4px;
+    margin: 0px;
+}
+
+.vmenu > li {
+    margin: 4px 0;
+}
+
+.vmenu > li li {
+    margin: 2px 0;
+}
+
+.vmenu a {
+    color: #333;
+    display: block;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.vmenu li > a > span {
+    float: right;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.vmenu li > a:hover > span {
+    color: #fff;
+}
+
+.vmenu li > a > span:after {
+    content: '\25be';
+}
+.vmenu li.open > a > span:after {
+    content: '\25b4';
+}
+
+.vmenu a:hover, .vmenu li.active > a {
+    background-color: #7f8c8d;
+    color: #f5f5f5;
+}
+
+.vmenu > li.active > a  {
+    background-color: #27ae60;
+}
+
+.vmenu li a {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 2px 10px;
+}
+
+.vmenu > li > a {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 10px;
+}

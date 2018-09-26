@@ -1,0 +1,51 @@
+table
+{
+	width:100%;
+	margin:0;
+	padding:0;
+	border-collapse:collapse;
+	border:1px solid #ddd;
+}
+tr th
+{
+	background:#ecf0f1;
+	color:#2c3e50;
+	border:1px solid #ddd;
+	border-bottom:2px solid #27ae60;
+	border-top:1px solid #ddd;
+	padding:10px;
+	font-size:14px;
+}
+
+tr td
+{
+	padding:5px 10px;
+	color:#555;
+    font-size: 0.89em;
+	border-bottom:1px solid #ccc;
+	border-top:none;
+    min-width:150px;
+}
+tr:hover > td
+{
+	color:#000;
+}
+td a
+{
+	color:#333;
+	text-decoration:none;
+	padding:5px;
+	border-radius:3px;
+}
+.edit
+{
+	background:#09f;
+}
+.del
+{
+	background:#c00;
+}
+td a:hover
+{
+	color:#f6f6f6;
+}
