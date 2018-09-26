@@ -1,7 +1,7 @@
 <?php
 $host = $_SERVER["SERVER_NAME"];
 $base = "promodes";
-$server = "http://".$host."/".$base;
+$server = "https://".$host."/".$base;
 ?>
 </div>
         </div>
