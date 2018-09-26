@@ -1,6 +1,6 @@
 <?php
 $host = $_SERVER["SERVER_NAME"];
-$base = "promodes";
+$base = "";
 $server = "https://".$host."/".$base;
 ?>
 <!DOCTYPE html>
