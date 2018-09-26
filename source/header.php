@@ -1,7 +1,7 @@
 <?php
 $host = $_SERVER["SERVER_NAME"];
 $base = "";
-$server = "https://".$host."/".$base;
+$server = "https://".$host;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -43,11 +43,9 @@ $server = "https://".$host."/".$base;
                         </ul>
                     </li>
                     <li><a href='?req=mono'>Monografi Mukim</a></li>
-                    <li class='active'><a href='../master/'>ADMINISTRATOR</a></li>
+                    <li class='active'><a href='../master/login.php'>ADMINISTRATOR</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="container">
-    
-                
