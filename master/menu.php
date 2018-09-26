@@ -1,7 +1,7 @@
 <?php
 $host = $_SERVER["SERVER_NAME"];
-$base = "promodes/master";
-$server = "http://".$host."/".$base;
+$base = "master";
+$server = "https://".$host."/".$base;
 ?>
 <ul Class = 'vmenu'>
     <li><a Href='#'>Potensi Sumber Daya Alam</a>

@@ -1,7 +1,7 @@
 <?php
 include "../config/koneksi.php";
 $host = $_SERVER["SERVER_NAME"];
-$base = "promodes";
+$base = "";
 $server = "http://".$host."/".$base;
 
 $_s = mysql_query("select * from tbakun where id='$_SESSION[nomor]'");
